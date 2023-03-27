@@ -1,0 +1,26 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 10vh;
+    align-items: center ;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1000;
+}
+.logo{
+    width: 30%;
+    height: 60%;
+    text-align: center;
+    background: url("../logo-no-background.png") no-repeat center center;
+    background-size: contain;
+
+
+
+}
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 50%;
+    }

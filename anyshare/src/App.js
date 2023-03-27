@@ -1,13 +1,11 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import SignInSide from './components/SignIn';
-
-function App() {
+import Landing from './Components/Landing/Landing';
+import Navbar from './Components/Navbar/Navbar';
+    
+export default function App(){
   return (<>
-    <SignInSide></SignInSide>
-  </>
+    <Navbar></Navbar>
+    <Landing></Landing>
 
-  );
+  </>)
 }
-
-export default App;

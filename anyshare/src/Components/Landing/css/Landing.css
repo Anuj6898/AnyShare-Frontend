@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.landing-container{
+    background: url("https://source.unsplash.com/random/?harbour,ships,boats,docks") no-repeat center center ;
+    background-size: cover;
+    height: 90vh;
+    max-width: 100%;
+    padding-top: 10vh;
+}
+.landing-header{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 8vw;
+    text-align: left;
+    position: relative;
+    top: 25%;
+    padding-left: 1rem;
+}
+.landing-para{
+    position: relative; 
+    font-size: 4vw;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.landing-btn{
+    border: none;
+    text-align: center;
+    padding: 1vw 2vw;
+    margin-top: 1rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: 2px solid black ;
+}
+.landing-btn:hover{
+    
+    color: black;
+    background: white;
+    cursor: pointer;
+}
