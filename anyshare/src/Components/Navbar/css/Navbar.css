@@ -7,6 +7,7 @@
     justify-content: space-between;
     background-color: white;
     z-index: 1000;
+    box-shadow: 1px 1px 1px gray;
 }
 .logo{
     width: 30%;
@@ -14,13 +15,24 @@
     text-align: center;
     background: url("../logo-no-background.png") no-repeat center center;
     background-size: contain;
-
-
-
 }
 .nav-list{
     display: flex;
-    justify-content: space-evenly;
     list-style: none;
-    width: 50%;
-    }
+    width: 30%;
+    height: 100%;
+    align-items: center;
+
+}
+.nav-list>li{
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+.nav-list>li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-list>li a:hover{
+    text-decoration: underline;
+}

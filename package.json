@@ -1,7 +1,7 @@
 {
-  "name": "anyshare-frontend",
+  "name": "final-year project",
   "version": "1.0.0",
-  "description": "frontend for anyshare application",
+  "description": "final-year project",
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon index.js"

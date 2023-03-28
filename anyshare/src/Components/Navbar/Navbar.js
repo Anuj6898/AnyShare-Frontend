@@ -8,10 +8,10 @@ export default function Navbar() {
         <div className='logo'>
         </div>
         <ul className='nav-list'>
-          <li>About Us</li>          
-          <li>Ships</li>          
-          <li>Contact</li>          
-          <li>User</li>          
+          <li><a href='/'> About Us</a></li>          
+          <li><a href='/'> Ships</a></li>          
+          <li><a href='/'> Contact</a></li>          
+          <li><a href='/'> User</a></li>          
         </ul>
         {/* <div className=' open-menu'></div>
         <div className=' close-menu'></div> */}
